@@ -1,32 +1,4 @@
-"""#Esse bloco de codigo nao tem Heranca, pois esta instanciando direto da class "pai"
 
-class Animal:
-
-    def __init__(self, tipo = None, tamanho = None, peso = None, idade = None):
-        self.tipo = tipo
-        self.tamanho = tamanho
-        self.peso = peso
-        self.idade = idade
-
-
-    def comer(self):
-        return print('O', self.tipo, 'esta comendo!')
-
-
-elefante = Animal('Elefante',3,2700,30)
-
-print("\nTipo de Animal:", elefante.tipo)
-print("tamanho:", elefante.tamanho, "metros de altura.")
-print("Peso:", elefante.peso)
-print("Idade:", elefante.idade)
-print(f"Ele é da classe {type(elefante)}\n")
-
-#Objeto seria a classe PAI(Animal), a entidade seria o enraizamento/Classe FILHO(elefante)"""
-
-
-
-
-"""
 class Lampada:
     def __init__(self, volts, cor, tecnologia, luminosiadade, status):
         self.volts = volts
@@ -73,5 +45,3 @@ print("Cor: ", lampada_cz.cor)
 print("Tecnologia: ", lampada_cz.tecnologia)
 print("Luminosidade: ", lampada_cz.luminosidade)
 print("Status: ", lampada_cz.status)
-"""
-#Forma alternativa
