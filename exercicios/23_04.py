@@ -151,10 +151,14 @@ class Pinguim(Onitorrinco):
     def cumprimentar(self):
         return f'Eu sou {self._Animal__nome} e vivo na terra e na agua salgada!'
     
-
+# 7 - Testando classe multi derivada indireta 
 pinguim = Pinguim('Picolino')
 print()
 print(pinguim.nadar())
 print()
 print(pinguim.cumprimentar())
+
+#  8 - Analisando qual instância pertence o pinguim
+print()
 print(f'\nPinguim Picolino é da instancia pinguim?: {isinstance(pinguim, Pinguim)}')
+
