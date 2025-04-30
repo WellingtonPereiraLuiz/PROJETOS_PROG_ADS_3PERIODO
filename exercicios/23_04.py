@@ -389,24 +389,46 @@
 # print()
 # print(dir(datetime))
 
-# 25 - Analisando o ano máximo e o ano mínimo para o datetime
-import datetime
-print(datetime.MAXYEAR)
-print(datetime.MINYEAR)
+# # 25 - Analisando o ano máximo e o ano mínimo para o datetime
+# import datetime
+# print(datetime.MAXYEAR)
+# print(datetime.MINYEAR)
 
-# 26 - Retornando a data e horas corrente 
-import datetime
-print()
-print(datetime.datetime.now())
-print()
-# 27 - Verificando a representação do método datetime -  year, month, day, hour, minute, second, microsecond 
-print(repr(datetime.datetime.now()))
+# # 26 - Retornando a data e horas corrente 
+# import datetime
+# print()
+# print(datetime.datetime.now())
+# print()
+# # 27 - Verificando a representação do método datetime -  year, month, day, hour, minute, second, microsecond 
+# print(repr(datetime.datetime.now()))
 
-# 28 - Alterando os parâmetros de uma variável pelo datetime
-import datetime
+# # 28 - Alterando os parâmetros de uma variável pelo datetime
+# import datetime
 
-inicio = datetime.datetime.now()
-print('Data e hora capturada pela variavel inicio:', inicio)
+# inicio = datetime.datetime.now()
+# print('Data e hora capturada pela variavel inicio:', inicio)
 
-print()
-inicio ==dd
+# print()
+# inicio = inicio.replace(year=2026, hour=16, minute=0, second=0, microsecond=0)
+# print('Data e horas alteradas na variavel:', inicio)
+
+# print()
+# print('Data e hora atual:', datetime.datetime.now())
+
+# # 31 - Recebendo dados do usuário e convertendo para data
+# import datetime
+# evento = datetime.datetime(2019, 1, 1, 0)
+
+# print(evento)
+# print(type(evento))
+# print(type('31/12/2018'))
+
+# data = input('Informe a sua data de nascimento (dd/mm/yyyy):')
+
+# data = data.split('/')
+# data = datetime.datetime(int(data[2]), int(data[1]), int(data[0]))
+
+# print()
+# print(data)
+# print(type(data))
+
